@@ -64,7 +64,7 @@ main{
  
 .encriptar{
      background: var(--color-1);
-     background-image: url("/ENCRIPTADOR/img/Muneco.png");
+     background: url(../img/Muneco.png);
      background-repeat: no-repeat;
      border: none;
      border-radius: 24px;
