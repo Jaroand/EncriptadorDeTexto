@@ -171,62 +171,75 @@ main{
     }
 
     .botones {
-        margin-left: 30%;
+        margin-left: -25%;
         flex-direction: column;
         width: 100%;
     }
 
     .btn-encriptar {
-        margin-left: 15%;
+        margin-top: -5%;
+        margin-left: 5%;
         width: 60%;
-        margin-bottom: 10%;
+        margin-bottom: 5%;
         font-size: 80%;
     }
     .btn-desencriptar {
+        margin-left: 5%;
         width: 60%;
         margin-bottom: 10%;
         font-size: 80%;
 
     }
     .btn-copiar {
-        width: 100%;
+        width: 90%;
         margin-bottom: 30%;
         font-size: 80%;
-        margin-left: 5%;
+        margin-left: -5%;
     }
     .nomensaje {
         flex-direction: column;
-        margin-left: 50%;
-        margin-bottom: 40%;
+        margin-left: 28%;
+        margin-bottom: 50%;
+    }
+    .sinMensaje, .sinMensaje2 {
+        width: 80%;
     }
     .encriptar{
-        width: 90%;
-        margin-top: 10%;
+        margin-left: -75%;
+        width: 45%;
+        margin-top: 5%;
     }
 
     .logo{
-        margin-left: 15%;
-        margin-top: 15%;
+        margin-top: 6%;
     }
-
+    .titule{
+        font-size: 95%;
+        margin-top: 0%;
+        width: 30%;
+        margin-left: -2%;
+    }
     .text-area{
-        margin-left: 30%;
-    }
-    .titule {
-        margin-left: 10%;
+        width: 65%;
+        margin-left: -48%;
     }
 
     .informacion {
-        margin-left: -50%;
+        width: 70%;
+        margin-left: -22%;
     }
 
     .encabezado {
-        margin-left: -5%;
+        margin-left: -3%;
     }
 
     .capsula {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .footer{
+        width: 50%;
+        font-size: 70%;
     }
 }
