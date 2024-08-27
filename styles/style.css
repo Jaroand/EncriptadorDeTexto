@@ -171,57 +171,57 @@ main{
     }
 
     .botones {
-        margin-left: 90px;
+        margin-left: 30%;
         flex-direction: column;
         width: 100%;
     }
 
     .btn-encriptar {
-        margin-left: 30px;
+        margin-left: 15%;
         width: 60%;
-        margin-bottom: 20px;
+        margin-bottom: 10%;
         font-size: 80%;
     }
     .btn-desencriptar {
         width: 60%;
-        margin-bottom: 20px;
+        margin-bottom: 10%;
         font-size: 80%;
 
     }
     .btn-copiar {
         width: 100%;
-        margin-bottom: 100px;
+        margin-bottom: 30%;
         font-size: 80%;
-        margin-left: 10px;
+        margin-left: 5%;
     }
     .nomensaje {
         flex-direction: column;
-        margin-left: 250px;
-        margin-bottom: 100px;
+        margin-left: 50%;
+        margin-bottom: 40%;
     }
     .encriptar{
         width: 90%;
-        margin-top: 20px;
+        margin-top: 10%;
     }
 
     .logo{
-        margin-left: 30px;
-        margin-top: 30px;
+        margin-left: 15%;
+        margin-top: 15%;
     }
 
     .text-area{
-        margin-left: 80px;
+        margin-left: 30%;
     }
     .titule {
-        margin-left: 30px;
+        margin-left: 10%;
     }
 
     .informacion {
-        margin-left: -130px;
+        margin-left: -50%;
     }
 
     .encabezado {
-        margin-left: -10px;
+        margin-left: -5%;
     }
 
     .capsula {
