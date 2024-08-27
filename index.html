@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/ENCRIPTADOR/styles/style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <div class="encabezado">
+            <img src="/ENCRIPTADOR/img/Logo.png" alt="logo de Alura" class="logo">
+            <h1 class="titule" id="titulo">Encriptador de texto</h1>
+        </div>
+    </header>
+    <main>
+        <section class="capsula">
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            <div>
+                <h6 class="informacion"><img src="/ENCRIPTADOR/img/Vector.png" alt="">  Solo letras minúsculas y sin acentos.</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section class="capsula">
+            <textarea class="encriptar" cols="20" rows="12"></textarea>
+            <div class="nomensaje">
+                <h5 class="sinMensaje">Ningún mensaje fue encontrado</h5>
+                <p class="sinMensaje2">Ingresa el texto que desees encriptar o desencriptar</p>
+                <button class="btn-copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer"> Developed by Jaro </footer>
+    <script src="/ENCRIPTADOR/main.js"></script>
+</body>
+</html>

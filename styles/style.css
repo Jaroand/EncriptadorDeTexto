@@ -1,0 +1,232 @@
+:root{
+    --color-1: #FFFDB5;
+    --color-2: #5C88C4;
+    --color-3: #4dc7cf;
+    --color-4: #5C2FC2;
+    --fuente-inter: 'Inter';
+    --fuente-krona: 'Krona One', sans serif;
+}
+
+*{
+    background: var(--color-1);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 80%;
+} 
+
+.encabezado{
+    display: flex; 
+    margin-left: 0px;
+    align-items: flex-start;
+}
+
+.logo{
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 80px;
+}
+
+.titule{
+    transform: translate(-5%,40%);
+    visibility: visible;
+    color:var(--color-4);
+    font-family: var(--fuente-krona);
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left:20px;
+    width: 436px;
+    opacity: 1;
+}
+
+main{
+    display: flex;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    
+}
+
+.text-area{
+    border: 1px var(--color-2);
+    color: var(--color-2);
+    margin-top: 90px;
+    text-transform: lowercase;
+    resize: none;
+}
+::placeholder{ color : var(--color-2);}
+    .text-area:focus{
+        outline: none;
+    }
+ 
+.encriptar{
+     background: var(--color-1);
+     background-image: url("/ENCRIPTADOR/img/Muneco.png");
+     background-repeat: no-repeat;
+     border: none;
+     border-radius: 24px;
+     color: var(--color-2);
+     margin-left: 80px;
+     margin-top: 20px;
+     padding-left: 20px;
+     resize: none;
+}
+.encriptar:focus{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;   
+}
+
+.btn-encriptar{
+    background-color: var(--color-2);
+    border: 1px solid var(--color-2);
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-desencriptar{
+    background: white;
+    border: 1px solid var(--color-2);
+    border-radius: 24px;
+    color: var(--color-2);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-copiar{
+    visibility: hidden;
+    border: 1px solid var(--color-2);
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    margin-top: 30px;
+    position: absolute;
+    width: 328px;
+    background-color: var(--color-4);
+}
+
+.informacion{
+    color: var(--color-3);
+    font-size: 18px;
+}
+.nomensaje{
+    transform: translateX(-50%);
+    margin-top: -25px;
+    margin-left: 50%; 
+}
+
+.sinMensaje{
+    visibility: visible;
+    color:var(--color-4);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: center;
+    width: 336px;
+    opacity: 1;
+    margin-bottom: 0px;
+}
+.sinMensaje2{
+    visibility: visible;
+    color: var(--color-3);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    width: 336px;
+    opacity: 0px;
+    margin-top: 5px;
+}
+
+.footer{
+    background-color: var(--color-4);
+    padding: 0.7rem;
+    color: var(--color-1);
+    text-align: center;
+    font-family: var(--fuente-inter);
+    font-size: 1rem;
+    font-weight: 200;
+}
+/* Media query para pantallas pequeñas */
+@media (max-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .botones {
+        margin-left: 90px;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .btn-encriptar {
+        margin-left: 30px;
+        width: 60%;
+        margin-bottom: 20px;
+        font-size: 80%;
+    }
+    .btn-desencriptar {
+        width: 60%;
+        margin-bottom: 20px;
+        font-size: 80%;
+
+    }
+    .btn-copiar {
+        width: 100%;
+        margin-bottom: 100px;
+        font-size: 80%;
+        margin-left: 10px;
+    }
+    .nomensaje {
+        flex-direction: column;
+        margin-left: 250px;
+        margin-bottom: 100px;
+    }
+    .encriptar{
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .logo{
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+
+    .text-area{
+        margin-left: 80px;
+    }
+    .titule {
+        margin-left: 30px;
+    }
+
+    .informacion {
+        margin-left: -130px;
+    }
+
+    .encabezado {
+        margin-left: -10px;
+    }
+
+    .capsula {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
